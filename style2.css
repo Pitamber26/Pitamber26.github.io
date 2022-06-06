@@ -37,6 +37,10 @@ ul li a {
     color: aquamarine;
     padding: 3px;
 }
+ul li a:hover{
+    color: hotpink;
+    font-style: bold;
+}
 #c{
     margin-right: 9vw;
 }
