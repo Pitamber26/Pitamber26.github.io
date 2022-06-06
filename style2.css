@@ -39,7 +39,7 @@ ul li a {
 }
 ul li a:hover{
     color: hotpink;
-    font-style: bold;
+    font-weight: bold;
 }
 #c{
     margin-right: 9vw;
