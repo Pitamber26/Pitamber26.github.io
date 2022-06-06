@@ -19,10 +19,10 @@ header {
 .nav {
     display: flex;
     justify-content: right;
-    align-items: flex-start;
+    align-items: center;
     position: sticky;
     width: 100vw;
-    height: 2vw;
+    height: 5vw;
 }
 
 li {
