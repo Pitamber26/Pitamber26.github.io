@@ -30,10 +30,6 @@ li {
   display: inline-block;
   padding: 10px;
 }
-li :hover{
-    color: hotpink;
-    font-weight: bolder;
-}
 
 ul li a {
   font-size: 25px;
@@ -41,6 +37,12 @@ ul li a {
   color: aquamarine;
   padding: 3px;
 }
+
+nav ul li a:hover{
+    color: hotpink;
+    font-weight: bolder;
+}
+
 #c {
   margin-right: 9vw;
 }
