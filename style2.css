@@ -1,0 +1,301 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Cormorant+Garamond:wght@300&family=Lato:wght@300&family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0a192f;
+}
+
+header {
+  display: flex;
+  margin: 0 10vw 5vh 0;
+  position: fixed;
+  background-color: #0a192f;
+  border-bottom: 2px solid darksalmon;
+}
+
+.nav {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  position: sticky;
+  width: 100vw;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+}
+
+ul li a {
+  font-size: 25px;
+  text-decoration: none;
+  color: aquamarine;
+  padding: 3px;
+}
+#c {
+  margin-right: 9vw;
+}
+.box {
+  height: 6vw;
+}
+.box1 {
+  height: 2vw;
+}
+
+.box2 {
+  height: 5vw;
+}
+.box4 {
+  height: 0.4vw;
+}
+
+.photo {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vw;
+  border: 2px solid aquamarine;
+}
+.a1 {
+  font-size: 35px;
+  color: aquamarine;
+  padding: 2vh 17vw;
+  padding-bottom: 0;
+  margin-top: 15vh;
+}
+
+.a2 {
+  display: inline-block;
+  font-size: 80px;
+  color: darksalmon;
+  padding-left: 17vw;
+  padding-bottom: 2vh;
+  padding-right: 5vw;
+}
+
+.a4 {
+  font-size: 2vw;
+  color: white;
+  padding: 2vh 17vw;
+  text-align: left;
+  margin-bottom: 10vh;
+  padding-top: 4vh;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.ac1 {
+  display: inline-block;
+  font-size: 6vw;
+  color: aquamarine;
+  padding: 4vh 17vw;
+}
+
+.c1 {
+  display: grid;
+  height: auto;
+  width: 100vw;
+  grid-template-columns: auto auto;
+  margin-bottom: 10vh;
+  row-gap: 5vh;
+  margin-top: 6vh;
+}
+
+.imbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46vw;
+  margin-left: 2vw;
+  grid-row: 1/3;
+  border: 2px solid aqua;
+}
+
+.imbox img{
+    width: 40vw;
+    margin: 3vw;
+    height: 60vh;
+}
+.heading {
+  color: lightsalmon;
+  width: 40vw;
+  font-size: 4.9vw;
+  align-self: center;
+  margin: 0 3vw;
+}
+
+.content {
+  margin: 0 3vw;
+  font-size: 2vw;
+  color: white;
+  margin: 0 2vw 5vh 3vw;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.c2 {
+  display: grid;
+  height: auto;
+  width: 100vw;
+  grid-template-columns: auto auto;
+  margin-bottom: 10vh;
+  row-gap: 5vh;
+}
+
+.imbox2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46vw;
+  margin-left: 2vw;
+  grid-row: 1/3;
+  border: 2px solid aqua;
+}
+
+.imbox2 img{
+     width: 40vw;
+     margin: 3vw; 
+     height: 60vh;
+}
+.heading2 {
+    color: lightsalmon;
+    width: 40vw;
+    font-size: 4.9vw;
+    align-self: center;
+    margin: 0 3vw;
+}
+
+.hheading {
+  font-size: 6vw;
+  color: aquamarine;
+  text-align: center;
+}
+
+.himgs {
+  display: grid;
+  height: auto;
+  width: 90vw;
+  grid-template-columns: auto auto auto;
+  margin-bottom: 70vh;
+  margin: auto;
+  column-gap: 3vw;
+  row-gap: 3vw;
+  justify-content: center;
+  margin-top: 3vw;
+}
+
+.webd {
+  align-items: center;
+  border: 2px solid aquamarine;
+  padding: 1.5vw;
+}
+.webd img{
+width: 25vw;
+ height: 20vw;
+}
+
+.cricket {
+  align-items: center;
+  border: 2px solid aquamarine;
+  padding: 1.5vw;
+}
+
+.cricket img{
+    width: 25vw;
+    height: 20vw;
+}
+
+.music {
+  align-items: center;
+  border: 2px solid aquamarine;
+  padding: 1.5vw;
+}
+.music img{
+    width: 25vw;
+ height: 20vw;
+}
+
+.graphic {
+  align-items: center;
+  border: 2px solid aquamarine;
+  padding: 1.5vw;
+  margin-bottom: 4vw;
+}
+
+.graphic img{
+    width: 25vw;
+    height: 20vw;
+}
+.football {
+  align-items: center;
+  border: 2px solid aquamarine;
+  padding: 1.5vw;
+  margin-bottom: 4vw;
+}
+
+.football img{
+    width: 25vw;
+ height: 20vw;
+}
+.defence {
+  align-items: center;
+  border: 2px solid aquamarine;
+  padding: 1.5vw;
+  margin-bottom: 4vw;
+}
+
+.defence img{
+    width: 25vw;
+    height: 20vw;
+}
+.hobhead {
+  text-align: center;
+  color: hotpink;
+  font-size: 1.5vw;
+  padding-top: 0.8vw;
+}
+
+.contact {
+  text-align: center;
+  padding: 5vw;
+  margin-top: 5vh;
+  color: white;
+  font-size: 2vw;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.he {
+  font-size: 5.5vw;
+  margin-bottom: 7vh;
+  color: aquamarine;
+}
+
+.contact a {
+  color: aquamarine;
+}
+
+.places {
+  display: inline-block;
+}
+
+.instagram {
+  display: inline-block;
+  margin: 1vw;
+}
+
+footer {
+  background-color: #0a192f;
+  height: 5vh;
+  text-align: right;
+  color: white;
+  font-size: 3vh;
+  margin: 2vw;
+  border-top: 2px solid darksalmon;
+}
+.highlight {
+  display: inline;
+  color: aquamarine;
+}
