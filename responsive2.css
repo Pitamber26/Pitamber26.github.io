@@ -1,0 +1,87 @@
+@media screen and (max-width:500px){
+    ul li a{
+        font-size: 4vw;
+    }
+    .logo img{
+        width: 5vw;
+    }
+    li{
+        padding: 1px;
+    }
+    .a1{
+        font-size: 5vw;
+        padding-left: 8vw;
+        margin-top: 6vh;
+    }
+    .a2{
+       font-size: 7vw;
+       padding-right: 3vw;
+       padding-left: 8vw;
+     }
+    .a4{
+        padding-left: 8vw;
+        font-size: 4vw;   
+    }
+    .heading{
+        font-size: 5.5vw;
+    }
+    .content{
+        font-size: 3.3vw;
+    }
+    .imbox img{
+       height: 30vh;
+    }
+    .heading2{
+        font-size: 5.5vw;
+    }
+    .imbox2 img{
+        height: 30vh;
+     }
+     .himgs{
+         grid-template-columns: auto auto;
+         margin-bottom: 10vh;
+     }
+     .hobhead{
+         font-size: 3vw;
+     }
+     .graphic{
+         margin-bottom: 0px;
+     }
+     .webd img{
+        width: 40vw;
+         height: 40vw;
+        }
+     .cricket img{
+            width: 40vw;
+            height: 40vw;
+     }
+     .music img{
+        width: 40vw;
+     height: 40vw;
+    }
+    .graphic img{
+        width: 40vw;
+        height: 40vw;
+    }
+    .football img{
+        width: 40vw;
+     height: 40vw;
+    }
+    .defence img{
+        width: 40vw;
+        height: 40vw;
+    }
+    .box2{
+        height: 11vw;
+    }
+    .he{
+        font-size: 14vw;
+        margin-bottom: 12vh; 
+       }
+    .contact{
+        font-size: 5.5vw;
+    }
+    footer{
+        font-size: 2vh;
+    }
+}
