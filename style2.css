@@ -38,7 +38,7 @@ ul li a {
   padding: 3px;
 }
 
-li:hover{
+li :hover{
     color: hotpink;
     font-weight: bolder;
 }
